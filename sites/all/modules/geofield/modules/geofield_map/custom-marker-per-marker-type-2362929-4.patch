@@ -1,0 +1,67 @@
+diff --git a/modules/geofield_map/geofield_map.module b/modules/geofield_map/geofield_map.module
+index e22158c..7440051 100644
+--- a/modules/geofield_map/geofield_map.module
++++ b/modules/geofield_map/geofield_map.module
+@@ -75,6 +75,8 @@ function geofield_map_field_formatter_view($entity_type, $entity, $field, $insta
+       $datum->properties = array(
+         'description' => entity_label($entity_type, $entity),
+       );
++      $context = array('entity' => $entity);
++      drupal_alter('geofield_map_data', $datum, $context);
+       $data[] = $datum;
+     }
+   }
+diff --git a/modules/geofield_map/includes/geofield_map_plugin_style_map.inc b/modules/geofield_map/includes/geofield_map_plugin_style_map.inc
+index 5aa4c67..633462b 100644
+--- a/modules/geofield_map/includes/geofield_map_plugin_style_map.inc
++++ b/modules/geofield_map/includes/geofield_map_plugin_style_map.inc
+@@ -125,6 +125,8 @@ class geofield_map_plugin_style_map extends views_plugin_style {
+           $datum->properties = array(
+             'description' => $description,
+           );
++          $context = array('view_row' => $result);
++          drupal_alter('geofield_map_data', $datum, $context);
+           $data[] = $datum;
+         }
+       }
+diff --git a/modules/geofield_map/js/GeoJSON.js b/modules/geofield_map/js/GeoJSON.js
+index f0cb417..53fb19b 100644
+--- a/modules/geofield_map/js/GeoJSON.js
++++ b/modules/geofield_map/js/GeoJSON.js
+@@ -172,9 +172,13 @@ var GeoJSON = function( geojson, options ){
+         obj = _error("Invalid GeoJSON object: GeometryCollection object missing \"geometries\" member.");
+       }else{
+         obj = [];
+-        for (var i = 0; i < geojson.geometries.length; i++){
+-          obj.push(_geometryToGoogleMaps(geojson.geometries[i], opts, geojson.geometries[i].properties));
+-        }
++	      for (var i = 0; i < geojson.geometries.length; i++){
++		      if (geojson.geometries[i].options) {
++			      obj.push(_geometryToGoogleMaps(geojson.geometries[i], geojson.geometries[i].options, geojson.geometries[i].properties));
++		      } else {
++			      obj.push(_geometryToGoogleMaps(geojson.geometries[i], opts, geojson.geometries[i].properties));
++		      }
++	      }
+       }
+       break;
+     
+@@ -187,9 +191,16 @@ var GeoJSON = function( geojson, options ){
+       break;
+     
+     case "Point": case "MultiPoint": case "LineString": case "MultiLineString": case "Polygon": case "MultiPolygon":
+-      obj = geojson.coordinates
+-        ? obj = _geometryToGoogleMaps(geojson, opts, geojson.properties)
+-        : _error("Invalid GeoJSON object: Geometry object missing \"coordinates\" member.");
++	  if (geojson.options) {
++		  obj = geojson.coordinates
++			  ? obj = _geometryToGoogleMaps(geojson, geojson.options, geojson.properties)
++			  : _error("Invalid GeoJSON object: Geometry object missing \"coordinates\" member.");
++	  }else{
++		  obj = geojson.coordinates
++			  ? obj = _geometryToGoogleMaps(geojson, opts, geojson.properties)
++			  : _error("Invalid GeoJSON object: Geometry object missing \"coordinates\" member.");
++
++	  }
+       break;
+     
+     default:

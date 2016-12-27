@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Zerolitter Map Page feature.
+ */
+
+include_once 'zerolitter_map_page.features.inc';

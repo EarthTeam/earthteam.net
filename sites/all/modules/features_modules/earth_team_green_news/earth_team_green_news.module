@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Earth Team: Green News feature.
+ */
+
+include_once 'earth_team_green_news.features.inc';

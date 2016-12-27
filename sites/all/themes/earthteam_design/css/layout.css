@@ -1,0 +1,205 @@
+/**
+ * @file
+ * Layout styling
+ */
+body{
+  background: #f3fce8;
+  padding:0;
+  margin:0;
+}
+
+#container {
+  width:auto;
+  padding:0 !important;
+}
+
+#header {
+  padding:0;
+  width:940px;
+  position:relative;
+  margin:0 auto;
+}
+
+#main {
+  width:940px;
+  /*margin:20px auto;*/
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display:block;
+}
+
+#header-wrapper{
+	border-bottom: solid 5px #130101;
+	background:#b5e55b;
+	background-image: linear-gradient(bottom, #87C24B 19%, #B5E55B 62%);
+	background-image: -o-linear-gradient(bottom, #87C24B 19%, #B5E55B 62%);
+	background-image: -moz-linear-gradient(bottom, #87C24B 19%, #B5E55B 62%);
+	background-image: -webkit-linear-gradient(bottom, #87C24B 19%, #B5E55B 62%);
+	background-image: -ms-linear-gradient(bottom, #87C24B 19%, #B5E55B 62%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.19, #87C24B),
+		color-stop(0.62, #B5E55B)
+	);
+}
+
+#footer-wrapper{
+	border-top: solid 5px #b5f267;
+	margin:80px 0 0;
+	background: #9BC155;
+	background-image: linear-gradient(top, #7FB937 27%, #9BC155 62%);
+	background-image: -o-linear-gradient(top, #7FB937 27%, #9BC155 62%);
+	background-image: -moz-linear-gradient(top, #7FB937 27%, #9BC155 62%);
+	background-image: -webkit-linear-gradient(top, #7FB937 27%, #9BC155 62%);
+	background-image: -ms-linear-gradient(top, #7FB937 27%, #9BC155 62%);
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		right bottom,
+		color-stop(0.27, #7FB937),
+		color-stop(0.62, #9BC155)
+	);
+}
+#navigation {
+	float:right;	
+}
+#navigation .block {
+	margin: 0;
+}
+#navigation #superfish-1 {
+	margin-bottom: 0;
+}
+#navigation ul#superfish-1 li.sf-depth-1.first{
+-webkit-border-top-left-radius: 8px;
+-moz-border-radius-topleft: 8px;
+border-top-left-radius: 8px;
+}
+#navigation ul#superfish-1 li.sf-depth-1.last{
+-webkit-border-top-right-radius: 8px;
+-moz-border-radius-topright: 8px;
+border-top-right-radius: 8px;
+}
+#navigation ul#superfish-1 li.sf-depth-1 {
+	font-size:22px;
+	text-transform: uppercase;
+	padding: 12px 28px;
+	color: #fff;
+	border-right:1px solid;
+	border:0;
+	letter-spacing: 1px;
+}
+
+#navigation ul#superfish-1 li.sf-depth-1.first{
+-webkit-border-top-left-radius: 8px;
+-moz-border-radius-topleft: 8px;
+border-top-left-radius: 8px;
+}
+#navigation ul#superfish-1 li a {
+		color: #fff;
+		padding:0;
+		text-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+}
+
+#navigation ul#superfish-1 li a.active{
+	color:#c5f370;
+	background:none;
+}
+
+#navigation ul#superfish-1 li a:hover{
+	color:#c5f370;
+	background:none;
+}
+
+#navigation ul#superfish-1 li {
+ background-color: transparent;
+ border-radius-top: 0;
+ box-shadow: none;
+}
+
+
+#navigation li.sf-depth-2{
+	margin-top:10px;
+	font-size:17px;
+	padding: 12px 50px;
+	color:#f0f0d2;
+	border-right:1px solid;
+	border:0;	
+}
+#navigation ul#superfish-1 li.sf-depth-2 a {
+	font-size: 16px;
+}
+
+/** Over write superfish css **/
+
+.sf-menu.sf-style-default a{
+border:0;
+padding:0;	
+}
+	
+	
+#header #logo{
+	float:left;
+	margin: 0;
+}
+
+#header #site-slogan {
+    font-style: italic;
+    margin: 0 10px 0;
+}
+
+#page-title{
+ /*border-bottom: 1px solid #E6E6E6;*/
+ color: #da7a19;
+ font-size: 30px;
+ line-height: 0.8em;
+ /*margin: 0 auto 35px;*/
+ /*margin: 0 auto 1%;*/
+ margin: 0 0 0 1%;
+ /*text-align: center;*/
+}
+
+#block-nice-menus-1{
+	z-index:900;
+}
+
+ul#superfish-3 {
+    width: 100%;
+}
+
+ul#superfish-3 li {
+    text-align: center;
+    background-color: #808080;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    width:  24.5%;
+    margin-top: 0.68em;
+    /*font-size: 90%;*/
+    font-size: 18px;
+    font-weight: normal;
+    height: 90%
+}
+
+ul#superfish-3 li a {
+    border: none;
+}
+
+ul#superfish-3 li a:hover{
+    /*background-color: #ffa31a;*/ /*Yellow-orange*/
+    background-color: #87c24b;
+}
+
+/** FOOTER **/
+
+.region-footer{
+    width: 1120px;
+    margin:0 auto;
+}
+
+#copyright p{
+	font-size:10px;
+	color:#262626;
+}

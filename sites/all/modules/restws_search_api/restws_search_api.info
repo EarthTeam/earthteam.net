@@ -1,0 +1,17 @@
+name = RestWS Search API Provider
+description = Provides a way to query a Search API Index using RestWS
+core = 7.x
+
+files[] = restws_search_api.resource.inc
+files[] = plugins/facetapi/widget_raw.inc
+
+dependencies[] = facetapi
+dependencies[] = restws
+dependencies[] = search_api
+
+; Information added by Drupal.org packaging script on 2016-04-05
+version = "7.x-1.2"
+core = "7.x"
+project = "restws_search_api"
+datestamp = "1459865940"
+

@@ -1,0 +1,12 @@
+name = Feeds smart parser
+description = Feeds smart parser
+core = 7.x
+package = Feeds
+dependencies[] = feeds
+files[] = FeedsSmartParser.inc
+; Information added by Drupal.org packaging script on 2014-01-19
+version = "7.x-1.0-alpha1"
+core = "7.x"
+project = "feeds_smartparser"
+datestamp = "1390110211"
+

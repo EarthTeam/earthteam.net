@@ -1,0 +1,219 @@
+/**
+ * Basic Page
+ */
+
+.image-full_width{
+	display:block;
+	margin-bottom:20px;
+	border: 8px solid #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+
+.image-half-left{
+	float:left;
+	border: 8px solid #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+  float: left;
+  margin: 0.5em 1em 1em 0;
+}
+
+.image-half-right{
+	float:right;
+	border: 8px solid #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+  margin: 0.5em 1em 1em 0;
+}
+
+.image-150x150{
+	border: 8px solid #FFFFFF;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+  margin: 0.5em 1em 1em 0;
+}
+
+/**
+ * Program Node
+ */
+
+#program-node .panel-col-first {
+    width: 580px;
+}
+
+#program-node .panel-col-last {
+    margin-left: 30px;
+    width: 325px;
+}
+
+#program-node .pane-node-field-program-actions{
+	background:#f4fccd;
+	padding:10px;
+	margin-bottom:30px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+	
+}
+
+#program-node .field-type-image{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+#program-node .pane-node-field-program-actions h2.pane-title,
+#program-node .pane-node-field-program-results h2.pane-title,
+#program-node .pane-node-field-program-videos h2.pane-title,
+#program-node .pane-node-field-programs-green-news h2.pane-title,
+#program-node .pane-related-teacher-student-panel-pane-1 h2.pane-title,
+#program-node .pane-related-teacher-student-panel-pane-2 h2.pane-title{
+	font-size:25px;
+	padding: 0 0 15px 5px;
+	margin:0;
+	
+}
+
+#program-node .field-name-field-program-actions .field-item{
+  border-left: 10px solid #B5F267;
+  margin-bottom: 25px;
+  padding-left: 8px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#program-node .pane-node-field-program-results{
+	background:#aad42b;
+	padding:10px;
+	margin-bottom:30px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+
+#program-node .pane-node-field-program-results .field-item{
+  border-left: 10px solid #B5F267;
+  margin-bottom: 25px;
+  padding-left: 8px;
+}
+
+#program-node .pane-node-field-program-videos{
+	background:#dbe1d6;
+	padding:10px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+	margin-bottom:30px;
+}
+
+#program-node .pane-node-field-program-videos .field-item{
+	background-image: url("/sites/all/themes/earthteam_design/images/videoicon.png");
+	background-position: 0 65%;
+  background-repeat: no-repeat;
+	padding-left:40px;
+	margin:0 0 15px 0;
+}
+
+#program-node .pane-node-field-program-videos .field-item{
+	background-image: url("/sites/all/themes/earthteam_design/images/videoicon.png");
+	background-position: 0 65%;
+  background-repeat: no-repeat;
+	padding-left:40px;
+	margin:0 0 15px 0;
+}
+
+#program-node .pane-node-field-programs-green-news{
+	background:#dbe1d6;
+	padding:10px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+	margin-bottom:30px;
+}
+
+#program-node .field-name-field-programs-green-news .field-item{
+	background-image: url("/sites/all/themes/earthteam_design/images/newsicon.png");
+  background-repeat: no-repeat;
+	padding-left:40px;
+	margin:0 0 15px 0;
+}
+
+#program-node .pane-related-teacher-student-panel-pane-1{
+	background:#fbea77;
+	padding:10px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+	margin-bottom:30px;
+}
+
+#program-node .pane-related-teacher-student-panel-pane-2{
+	background:#f1be57;
+	padding:10px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+	margin-bottom:30px;	
+}
+
+#program-node .view-id-related_teacher_student .views-row{
+	background-image: url("/sites/all/themes/earthteam_design/images/ribbonicon.png");
+  background-repeat: no-repeat;
+	padding-left:40px;
+	margin:0 0 15px 0;
+}
+
+
+#program-node .field-name-field-program-short-description{
+	margin-bottom:30px;
+}
+
+#program-node .field-name-field-program-long-description{
+	margin: 30px 0;
+}
+
+#program-node .pane-node-field-program-contact-person h2.pane-title{
+margin-top:30px
+}
+
+#program-node .field-name-field-program-additional-photos .field-item{
+	margin:30px 0;
+}
+
+.field-name-body p{
+	line-height:27px;
+	font-size:1em;
+}
+
+/**
+ * News Node
+ */
+
+.view-homepage-news.view-display-id-page_1 img{
+ float:left;
+ border: 8px solid #FFFFFF;
+ box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+ float: left;
+ margin: 0.5em 1em 1em 0;
+}
+
+.view-homepage-news .views-field-created{
+	font-size:16px;
+	font-weight:bold;
+}
+
+.view-homepage-news.view-display-id-page_1 h2{
+   margin: 0 0 10px;
+}
+
+/**
+ * Quotes
+ */
+.field-collection-item-field-quote-collection{
+	margin: 30px 0;
+  padding: 13px 30px 13px 65px;
+	background-image: url("/sites/all/themes/earthteam_design/images/quotemark.png");
+	background-position: 15px 15px;
+  background-repeat: no-repeat;
+	font-size:15px;
+	line-height:20px;
+  background-color:#dab141;
+	border-radius:3px;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+  max-width:550px;
+}
+.field-name-field-quote-collection .field-name-field-quote{
+    margin-bottom: 20px;
+		margin-right:10px;
+}
+.field-name-field-quote-collection .field-name-field-site-quote-author {
+    font-weight: bold;
+    line-height: 41px;
+}
+.field-name-field-site-quote-thumbnail-photo{
+	float:left;
+	margin-right:10px;
+}

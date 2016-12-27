@@ -1,0 +1,727 @@
+
+/**
+ * Individual Page styling
+ */
+
+/*******************************************************************************
+ * Front Page
+ ******************************************************************************/
+.agenda .date-label{
+    background: #eee !important;
+}
+.panel-2col-stacked .panel-col-last .inside {
+    margin: 0 0 0 2.1em;
+}
+
+#OpenLayers_Feature_Vector_24_label,
+#OpenLayers_Feature_Vector_26_label,
+#OpenLayers_Feature_Vector_28_label,
+#OpenLayers_Feature_Vector_30_label,
+#OpenLayers_Feature_Vector_32_label,
+#OpenLayers_Feature_Vector_34_label,
+#OpenLayers_Feature_Vector_36_label,
+#OpenLayers_Feature_Vector_38_label,
+#OpenLayers_Feature_Vector_40_label {
+    background-color: rgba(255,255,255,0.3) !important;
+    text-shadow: 0px 0px 8px #000000 !important;
+}
+#OpenLayers_Feature_Vector_24_label_tspan_0,
+#OpenLayers_Feature_Vector_26_label_tspan_0,
+#OpenLayers_Feature_Vector_28_label_tspan_0,
+#OpenLayers_Feature_Vector_30_label_tspan_0,
+#OpenLayers_Feature_Vector_32_label_tspan_0,
+#OpenLayers_Feature_Vector_34_label_tspan_0,
+#OpenLayers_Feature_Vector_36_label_tspan_0,
+#OpenLayers_Feature_Vector_38_label_tspan_0,
+#OpenLayers_Feature_Vector_40_label_tspan_0,
+#OpenLayers_Feature_Vector_42_label_tspan_0,
+#OpenLayers_Feature_Vector_44_label_tspan_0,
+#OpenLayers_Feature_Vector_46_label_tspan_0 {
+    background-color: rgba(255,255,255,0.5) !important;
+    font-size 0.8em !important;
+    text-shadow: 2px 2px 2px black !important; 
+    /*text-shadow: 0px 0px 8px #000000 !important;*/
+    display: inline !important;
+}
+
+.pane-social-links-home{
+    background-color:gray;
+    border-radius:4px;
+}
+#mini-panel-social_links_home{
+    padding: 5px 0 5px 0;
+}
+
+.view-homepage-quote{
+	margin: 30px 0;
+    padding: 13px 30px 13px 65px;
+	background-image: url("/sites/all/themes/earthteam_design/images/quotemark.png");
+	background-position: 15px 15px;
+    background-repeat: no-repeat;
+	font-size:17px;
+	line-height:20px;
+    background-color:#dab141;
+    border-radius:3px;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+
+.view-homepage-quote .views-field-field-site-quote-author{
+	font-weight: bold;
+	line-height: 41px;
+	margin-left:10px;
+}
+.pane-teacher-student-of-the-month{
+    width:341px;
+}
+
+#events_calendar > div.pane-content > h2,
+#events_calendar h2,
+.pane-teacher-student-of-the-month h2.pane-title,
+.upcoming-events h2.pane-title{
+    background:#98c052;
+    font-size:18px;
+    padding: 10px 20px;
+    margin:0;
+    text-align:center;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pane-teacher-student-of-the-month td.col-1{
+	width:50px;
+	margin:0;
+	padding:0;
+}
+.pane-teacher-student-of-the-month td.col-2{
+	width:50px;
+	margin:0;
+	padding:0;
+}
+.view-teacher-student-of-the-month{
+	width:329px;
+	height:267px;
+	background:#eee;
+	padding:15px 0 0 12px;
+}
+
+.view-teacher-student-of-the-month h3{
+	text-align: center;
+	margin-top:-10px;
+	margin-bottom:5px;
+}
+
+.pane-teacher-student-of-the-month .views-field-field-student-teacher-photo{
+	width:144px;
+	border: 3px solid #FFFFFF;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+
+#news-detail > div.center-wrapper > div.panel-col-last.panel-panel,
+.page-news .center-wrapper .panel-col-last,
+.page-front-news .panel-col-last,
+#front-page .center-wrapper .panel-col-last {
+    width: 39.9%;
+}
+
+#news-detail > div.center-wrapper > div.panel-col-first.panel-panel,
+.page-news .panel-col-first,
+#front-page .center-wrapper .panel-col-first {
+    width: 60%;
+}
+
+.page-news div.panel-col-first.panel-panel,
+#front-page .center-wrapper .views-field-field-news-image {
+    float:left;	
+}
+
+.front-blog-image{
+	float:left;
+}
+#front-page  .view-homepage-news{
+	min-height:300px;
+}
+#front-page  .view-homepage-news-sticky {
+	min-height:30px;
+}
+#front-page .views-field-created{
+	margin-top: -13px;
+	margin-bottom: 12px;
+}
+
+#front-page .view-id-homepage_news .views-row{
+        margin-top: 0.5em;
+	padding-bottom:30px;
+}
+
+/*
+#panels-ipe-regionid-center .pane-content img,
+#panels-ipe-regionid-center .pane-content .fluid-video iframe,
+*/
+.page-news .pane-content img,
+.page-news  div.pane-content div.views-field.views-field-body img.view-programs,
+.page-news .news-teaser img,
+#front-page div.panel-pane.pane-views-panes.pane-homepage-news-panel-pane-3 div.view-header img,
+.page-earthteam-programs div.view-footer img,
+#front-page .view-homepage-news .view-content img {
+    float:left;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    margin: 0.1em 1em 1em 0;
+    max-width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+/* Avoid "indented" images in news teasers.*/
+.news-teaser img {
+    display: none;
+}
+
+.news-teaser .field-content figure:nth-child(1),
+.news-teaser .field-content figure:nth-child(1),
+.news-teaser .field-content div:nth-child(1),
+.news-teaser .field-content div:nth-child(1) {
+    width: 100%;
+    margin: 0;
+}
+
+.news-teaser .field-content figure:nth-child(1) > img:first-of-type,
+.news-teaser .field-content figure:nth-child(1) > a > img:first-of-type,
+.news-teaser .field-content div:nth-child(1) > img:first-of-type,
+.news-teaser .field-content div:nth-child(1) > a > img:first-of-type,
+.news-teaser .field-content p:nth-child(1) > a > img:first-of-type,
+.news-teaser .field-content p:nth-child(1) > img:first-of-type {
+    display: block;
+    width: 100%;
+}
+
+.node-type-latest-news .pane-content img {
+    display: inline;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    border: 3px solid #FFFFFF;
+    margin: 0 0 0 0;
+    max-width: 100%
+}
+#news-detail-body > div > div > div > div > p:nth-child(1) > img:first-of-type {
+    display: block;
+}
+
+.page-earthteam-programs .panel-what-we-do-pane-1 .field-content img,
+.page-earthteam-programs div.views-field.views-field-body img,
+.page-earthteam-programs  div.view-footer iframe,
+.node-type-latest-news .pane-content iframe,
+.page-news .pane-content iframe,
+.page-news .news-teaser iframe,
+div.views-field.views-field-body.news-teaser iframe,
+.embed-youtube iframe {
+    clear: both;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    width: 100%;
+    max-width: 100%;
+}
+img#program-view-header {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px !important;
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+#mini-panel-sustainable_youth_program_banner img {
+    margin-bottom: 0px;
+    width: 100%;
+}
+.page-earthteam-programs #program-view-header img {
+    box-shadow: none !important;
+    margin-bottom: 0px;
+    width: 100%;
+}
+#school-teams-panel-pane-1 img {
+    box-shadow: none !important;
+}
+
+/*******************************************************************************
+ * News Teasers 
+ ******************************************************************************/
+/*
+#news-detail-body img,
+#front-page  .view-homepage-news img {
+#news-detail-body img {
+    clear: both !important;
+    max-width: 100%;
+}
+
+#news-detail-body .field-items {
+    clear: both !important;
+}
+*/
+.news-teaser .field-content a:not(:last-child),
+.news-teaser img:not(:first-child) {
+    display: none;
+}
+
+/*******************************************************************************
+ * News Pages 
+ ******************************************************************************/
+
+#news-detail-title h2,
+.page-news div.views-field.views-field-title > h2,
+.page-earthteam-programs div.view-content > h3,
+div.view.view-what-we-do div.view-content > h3,
+#front-page .view-homepage-news h2.title{
+    border-bottom: 4px solid #79993F;
+    font-size: 22px;
+    margin: 10px 0 15px;
+    padding: 0 0 5px;
+    color: #75a241;
+}
+
+.news-detail-body img{
+   float: left;
+   display: inline; 
+}
+
+.page-earthteam-programs .geofieldMap,
+div.pane-internship-locations,
+#front-page .geofieldMap,
+#school-teams-panel-pane-1 .geofieldMap {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 1em !important;
+}
+.page-earthteam-programs .view-content {
+    padding-top: 0px;
+}
+
+.post-body h2,
+#sticky-title,
+.sticky-title-left-justified {
+    text-shadow: 0px 0px 8px #FFFFFF !important;
+    font-size: 1.3em !important;
+    /*font-weight: bold;*/
+    text-align: center;
+    margin: 0 0 0 0;
+    margin-bottom: 0.6em;
+    /* background-color: #b3ccd4; */
+    padding-top: 0.2em;
+    padding-bottom: 0px;
+}
+.sticky-title-left-justified {
+    text-align: left;
+}
+.sticky-subhead-left-justified {
+    text-align: left;
+    padding-bottom: 0px;
+    margin-bottom: 0.2em !important;
+    margin-top: 0px !important;
+}
+#panels-ipe-regionid-center > div.panels-ipe-sort-container > div:nth-child(4) {
+    margin-bottom: 0px;
+}
+#panels-ipe-regionid-center > div.panels-ipe-sort-container > div:nth-child(2) {
+    height: 0px;
+    margin: 0 0 0 0;
+}
+h2#sticky-subhead {
+    text-align: center;
+    border-bottom: none !important;
+    margin: 75% 0 0 9% !important;
+    position: absolute !important;
+    font-weight: bold;
+    /*color: #7e9c48;*/
+    z-index: 10;
+    /*color: #7e9c48;*/
+    /*color: #4f6d2c !important;*/
+    /*background-color: #b3ccd4; */
+    /*color: rgba(255,255,255,0.7);*/
+    color: #003366;
+}
+/*
+#front-page > div.center-wrapper > div.panel-col-first.panel-panel > div > div > div.pane-content > div > div.view-header > div > div.view-header {
+    background-color: #b3ccd4;
+}
+*/
+
+.nominate p{
+	background-image: url("/sites/all/themes/earthteam_design/images/icon/plus.png");
+	    background-position: 0 65%;
+	    background-repeat: no-repeat;
+	    font-size: 10px;
+	    margin: -68px 85px 32px 88px;
+	    padding-left: 40px;
+	padding-left: 40px;
+	position:relative;
+}
+
+.green-media h2.pane-title{
+	text-align:center;
+}
+
+/*******************************************************************************
+ * Programs overview page
+ ******************************************************************************/
+.view-programs td{
+  padding: 30px;
+  width: 360px;
+}
+
+.view-what-we-do img,
+.view-programs img{
+	border: 3px solid #FFFFFF;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+
+/*******************************************************************************
+ * Staff page
+ ******************************************************************************/
+.views-field-field-person-photo img{
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    float: left;
+    margin: 0.5em 1em 1em 0;
+}
+
+.staff-info{
+	float:left;
+	margin-left: 2em;
+}
+
+ .staff-info h2{
+	margin:0;
+	line-height:60px;
+	font-size:32px;
+}
+
+.staff-info h3{
+	padding:0;
+	margin:0;
+}
+/*******************************************************************************
+ * Teacher/Student of the Month
+ ******************************************************************************/
+.view-teacher-student-of-the-month-page .views-field-field-student-teacher-photo img{
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    float: left;
+    margin: 0.5em 1em 1em 0;	
+}
+.teacher-student-info{
+	float:left;
+	margin-left:30px;
+}
+
+.view-teacher-student-of-the-month-page span.date-display-single {
+    background: none repeat scroll 0 0 #F2DB3F;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    font-size: 22px;
+    padding: 9px;
+    width: 960px;
+}
+/*******************************************************************************
+ * Job and Internship
+ ******************************************************************************/
+
+.job-date{
+	background:#eeeeee;
+	margin:20px 0;
+	padding:10px;
+}
+
+.view-jobs-and-internships h3{
+background: none repeat scroll 0 0 #7fb937;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 22px;
+    padding: 9px;
+    width: 960px;	
+  margin:0;
+}
+/*******************************************************************************
+ * Volunteer
+ ******************************************************************************/
+
+#block-views-past-volunteers-block-1 h2.block-title{
+    background: none repeat scroll 0 0 #F2DB3F;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    font-size: 22px;
+    padding: 9px;
+    width: 960px;
+    margin-top:30px;
+    font-size:33px;	
+}
+
+
+/*******************************************************************************
+ * Front Page News and Internships 
+ ******************************************************************************/
+/***************************
+Paralax scrolling background
+***************************/
+/* Remove -- too disimilar from the rest of the site design. Also: Needs to be implemented as map tiles via CDN.
+.page-earthteam-programs #container {
+    background-image: url("/sites/all/themes/earthteam_design/images/earth-satellite-image.png");
+    background-size: cover;
+}
+*/
+
+#sticky-subhead {
+    margin-bottom: 0px;
+}
+
+#mini-panel-sustainable_youth_program_banner {
+    margin-bottom: 0px;
+}
+
+.page-earthteam-programs #program-view-header {
+    max-width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+img#program-view-header {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px !important;
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#mini-panel-sustainable_youth_program_banner p {
+    margin-bottom: 0px;
+}
+
+.page-earthteam-programs #panels-ipe-paneid-134 > div.panels-ipe-portlet-content > div > div.pane-content div.views-field.views-field-title h2,
+.page-earthteam-programs .views-field-title {
+    margin-top: 1em;
+}
+
+#mc_embed_signup {
+    background-color: #f7fdea !important;
+}
+#mc_embedded-subscribe-form {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
+#mc_embed_signup,
+.page-earthteam-programs .view-content {
+    /*overridden in the embedded html. Edit the block to style*/
+    /*background-color: #f7fdea;*/
+    /*background-color: rgba(247, 253, 234, 0.7);*/
+    
+}
+/*
+.page-earthteam-programs .view-content:first-of-type {
+}
+*/
+
+.page-earthteam-programs #mc-embedded-subscribe  {
+    background-color: #75a241;
+}
+ 
+/*
+#front-page > div.center-wrapper > div.panel-col-first.panel-panel > div > div.panel-separator,
+.page-earthteam-programs div.panel-separator { */
+#panels-ipe-regionid-center > div.panels-ipe-sort-container > div:nth-child(8),
+#front-page > div.center-wrapper > div.panel-col-first.panel-panel > div > div:nth-child(2) {
+    height: 0px;
+    margin-bottom: 0px;
+}
+
+/*
+#mini-panel-social_links_home {
+    margin-top: -5px !important;
+    margin-bottom: -5px;
+}
+*/
+
+div.right-sidebar > div {
+    padding-left: 2.1em !important;
+}
+
+/*******************************************************************************
+ * Donate page (Parially overrides PayPal external stylesheet and overrides in page body. 
+ ******************************************************************************/
+#payByIpnForm > div:nth-child(2) {
+    margin-bottom: 1em;
+}
+
+#payByIpnForm,
+#donate-body h1,
+#donate-body h2,
+#donate-body h3 {
+    text-align: center;
+    line-height: 0.6em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#donation-type-separator {
+    width: 33%;
+    margin-left: 33%;
+}
+
+#donate-body form > h1 {
+    height: 1em;
+}
+
+#donate-body p {
+    margin-top: 1em;
+}
+/*
+.field-collection-item-field-quote-collection {
+    width: 50% !important;
+    margin-left: 19% !important;
+}
+*/
+#mini-panel-sign_up_and_donate input.donate_button {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 125%;
+    color: white;
+    display: block;
+    cursor: pointer;
+    text-shadow: 1px 1px #666;
+    width: 100%;
+    height: 4em;
+    background-color: #D45825;
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: -2em;
+}
+#mini-panel-sign_up_and_donate div#donate-button {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 125%;
+    color: white;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 4em;
+    line-height: 4em;
+    background-color: #D45825;
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 0px;
+    /*margin-bottom: 1em !important;*/
+}
+#mini-panel-sign_up_and_donate #donate-button-link {
+    display: block;
+    height: 100%;
+    color: white !important;
+    font-size: 125%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#imini-panel-sign_up_and_donate #donate-button-link:visited {
+    color: white !important;
+}
+
+
+#mini-panel-sign_up_and_donate form {
+    height: 4em;
+    margin-top: 0px;
+    margin-bottom: 5.5em !important;
+}
+#mini-panel-sign_up_and_donate h2 {
+    margin-top: 0px;
+    margin-bottom: 1em !important;
+}
+
+/* Removed when button was moved to the top of the page.
+.page-earthteam-programs #donate-button-link {
+    margin-bottom: 1.5em !important;
+    margin-top: 0.65em !important;
+}
+*/
+
+div#register-button {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 125%;
+    color: white;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 4em;
+    line-height: 4em;
+    background-color: #B3CCD4;
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 0px;
+    /*margin-bottom: 1em !important;*/
+}
+div.contextual-links-region.panel-pane.pane-panels-mini.pane-register > div.contextual-links-wrapper.contextual-links-processed,
+#front-page > div.center-wrapper > div.panel-col-last.panel-panel > div > div.contextual-links-region.panel-pane.pane-panels-mini.pane-register > div.contextual-links-wrapper.contextual-links-processed {
+    position: relative;
+    margin-top: -1em;
+}
+#register-button > div > h2,
+#register-button > div > h2 > a,
+#register-button > div > h3 {
+    line-height: 2.5em;
+    color: #ffffff;
+}
+
+/*******************************************************************************
+* Maps for mobile devices 
+*******************************************************************************/
+.olpopup,
+.openlayers-fp {
+    z-index: 1000 !important;
+}
+#OpenLayers_Feature_Vector_29_label {
+    text-shadow: 2px 2px 2px black !important; 
+}
+.openlayers-container img {
+    max-width: none !important;
+}
+
+#internship-map-small {
+    display: none;
+}
+
+#schools-image-map-small,
+#schools-image-map {
+    width: 100%;
+}
+img[usemap] {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+#schools-image-map img {
+    width: 100%;
+}
+
+.pane-homepage-news-panel-pane-4 {
+    padding-right: 1.2em;
+}
+
+#block-panels-mini-footer > div.content > div > div.panel-panel.panel-col > div > div.panel-pane.pane-custom.pane-5.footer-info > div p {
+    margin-bottom: 0.2em;
+}

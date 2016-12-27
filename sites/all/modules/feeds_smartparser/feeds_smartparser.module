@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Smart parse an HTML document.
+ */
+
+/**
+ * Implements hook_feeds_plugins().
+ */
+function feeds_smartparser_feeds_plugins() {
+  return array(
+    'FeedsSmartParser' => array(
+      'name' => t('Smart HTML parser'),
+      'description' => t('Smart Parse HTML.'),
+      'handler' => array(
+        'parent' => 'FeedsParser',
+        'class' => 'FeedsSmartParser',
+        'file' => 'FeedsSmartParser.inc',
+      ),
+    ),
+
+  );
+}

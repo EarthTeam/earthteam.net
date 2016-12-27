@@ -1,0 +1,12 @@
+<?php
+
+/**
+* Implements hook_install().
+*/
+function custom_gmap_install() {
+  variable_del('gmap_markerfiles');
+  variable_del('gmap_marker_custom_dir');
+  variable_set('gmap_marker_custom_dir', drupal_get_path('module', 'custom_gmap') . '/markers');
+}
+
+?>

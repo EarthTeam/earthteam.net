@@ -1,0 +1,32 @@
+
+.panel-3col-424 { 
+/*  overflow: hidden;  */
+}
+
+.panel-3col-424 .panel-col-first { 
+  float: left; 
+  width: 35%; 
+}
+
+.panel-3col-424 .panel-col-first .inside { 
+}
+
+.panel-3col-424 .panel-col { 
+  float: left; 
+  width: 30%; 
+}
+
+.panel-3col-424 .panel-col .inside { 
+}
+
+.panel-3col-424 .panel-col-last { 
+  float: left; 
+  width: 33%; 
+}
+
+.panel-3col-424 .panel-col-last .inside { 
+}
+
+.panel-3col-424 .panel-separator {
+  margin: 0 0 .5em 0;
+}
