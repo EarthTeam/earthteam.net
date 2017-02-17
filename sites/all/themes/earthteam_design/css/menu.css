@@ -151,6 +151,14 @@ body.page-front-earth #superfish-3 li#menu-2445-3 a:hover {
  	background-repeat: no-repeat;
 	padding: 24px 0 16px 39px;
 }
+.pane-menu-menu-social-links a.menu-footprint {
+	color:#ffffff;
+	background-image: url("../images/icon/footprint-40x40.png");
+	background-position: 0 65%;
+ 	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;
+}
+
 
 .pane-menu-menu-social-links a.earthteam-events {
 	color: #ffffff;
@@ -190,6 +198,10 @@ body.page-front-earth #superfish-3 li#menu-2445-3 a:hover {
 
 .pane-menu-menu-social-links a.menu-zerolitter:hover{
 	background-image: url("../images/icon/ZLP-globe-green-35x35.png");
+}
+
+.pane-menu-menu-social-links a.menu-footprint:hover{
+	background-image: url("../images/icon/footprint-green-40x40.png");
 }
 
 .pane-menu-menu-social-links a.earthteam-events:hover {

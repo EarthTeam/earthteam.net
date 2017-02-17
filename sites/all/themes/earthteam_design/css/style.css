@@ -101,6 +101,9 @@ a:hover, a:active, li a.active  { color: #39f; }
 
 a:focus { outline: thin dotted; }
 
+
+.tall-button-block a:focus,
+a.menu-footprint:focus,
 a:hover, a:active { outline: 0; }
 
 /* apply common styling after reset.css */
@@ -764,4 +767,9 @@ span.morecontent > a {
 .link_cursor
 {
     cursor: pointer !imporatnt;
+}
+
+#carbon-footprint-title {
+    margin-top: 0.2em;
+    margin-bottom: 0;
 }
