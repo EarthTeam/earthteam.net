@@ -52,6 +52,7 @@ UPGRADE.txt
 authorize.php
 cron.php
 error_log
+sites/*/files
 includes/
 index.php
 install.php
