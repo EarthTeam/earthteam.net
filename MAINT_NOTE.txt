@@ -1,0 +1,10 @@
+Move all files in this directory to ./earthteam.net and enable the new virtual server
+
+Then, rewstart the Apache2 webserver.
+
+The new virtual server will use the same databasse anbd base_url, but the root directory will have changed in the httpd.conf.
+
+
+-Paul Wicks
+510-367-4454
+paul.william.wicks@gmail.com
